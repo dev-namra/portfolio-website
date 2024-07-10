@@ -1,10 +1,9 @@
 import React from 'react';
 import IconButton from '../elements/IconButton';
-import backgroundImage from "/Users/namra.mahak/React Applications/portfolio/src/assets/backgroundAbout.png"; 
+
 
 const Home = () => {
   return (
-    // style={{ backgroundImage:`url(${backgroundImage})`}}
     <section id="about" className='bg-[#f5f5f5]'>
       <div className="container mx-auto flex px-10 py-20 flex-col items-center">
         <div className="flex flex-col mb-16 md:mb-0 items-center text-center w-3/4">

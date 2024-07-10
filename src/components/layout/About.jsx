@@ -1,4 +1,3 @@
-// src/pages/About.jsx
 import React from 'react';
 import JourneyTable from '../elements/JourneyTable'; 
 import { JourneyData } from '../data'; 
