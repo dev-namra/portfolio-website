@@ -7,8 +7,8 @@ const JourneyTable = ({ data }) => {
       <tbody>
         {data.map((row, index) => (
           <tr key={index}>
-            <td className="px-4 py-2 align-top">{row.year}</td>
-            <td className="px-4 py-2 align-top">{row.detail}</td>
+            <td className="pr-4 py-2 align-top">{row.year}</td>
+            <td className="pr-4 py-2 align-top">{row.detail}</td>
           </tr>
         ))}
       </tbody>

@@ -4,8 +4,8 @@ import Image from '../../assets/backgroundHome.png';
 
 const Home = () => {
   return (
-    <section id="about" className="relative bg-[#f5f5f5] bg-no-repeat bg-center bg-contain h-screen md:h-[calc(100vh-24rem)]" style={{backgroundImage: `url(${Image})`}}>
-      <div className="absolute inset-0 flex flex-col justify-end items-center">
+    <section id="about" className="relative bg-[#f5f5f5] bg-no-repeat bg-top md:bg-center bg-contain h-[calc(100vh-20rem)] md:h-[calc(100vh-24rem)]" style={{backgroundImage: `url(${Image})`}}>
+      <div className="absolute inset-0 flex flex-col justify-start md:justify-end items-center">
         <div className="container mx-auto px-10 py-20 max-w-5xl">
           <div className="flex flex-col items-center justify-center text-center gap-6 md:gap-10">
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-[#282828]">
