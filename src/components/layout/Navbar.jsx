@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#fff] bg-opacity-60 border border-b-[#eee] backdrop-blur-md sticky top-0 z-50">
+    <nav className="bg-[#fff] bg-opacity-60 border-b border-gray-300 backdrop-blur-md sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between">
+        <div className="relative flex h-6 md:h-16 items-center justify-between">
           {/* BURGER MENU */}
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button

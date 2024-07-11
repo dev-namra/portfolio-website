@@ -3,12 +3,12 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <section id="projects" className="text-gray-400 bg-[#f5f5f5]">
+    <section id="projects" className="text-gray-400 bg-[#f5f5f5] mt-4 md:mt-20">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         {/* TITLE */}
-        <div className="flex w-full mb-20">
+        <div className="flex w-full mb-20 gap-2 md:gap-4">
             <i class="ri-shining-fill text-[#282828] sm:text-4xl text-3xl font-medium"></i>
-            <h1 className="sm:text-4xl text-3xl font-medium mb-4 text-[#282828]">Featured Projects</h1>
+            <h1 className="sm:text-4xl text-3xl font-bold mb-4 text-[#282828]">Featured Projects</h1>
         </div>
         {/* CARDS */}
         <div className="flex flex-wrap -m-4">
