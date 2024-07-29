@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         'darker-grotesque': ['Darker Grotesque', 'sans-serif'],
+        'Farro' : ['Farro', 'sans-serif']
       },
     },
   },
